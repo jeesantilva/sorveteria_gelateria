@@ -1,0 +1,75 @@
+.header{
+    width: 100%;
+    background-color: #EECAD5;
+    padding: 0 20px;
+    /* font-family: "Open Sans", system-ui; */
+    font-family: "Yanone Kaffeesatz", system-ui;
+}
+
+.header div{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header div .logo{
+    width: 100px;
+    height: 100px;
+}
+
+div .links{
+    
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+div .links .link_nav{
+    color: #ae6d37;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+div .links .link_nav:hover{
+    border-bottom: 0.8px solid #ae6d37 ;
+}
+
+
+@media (max-width: 600px){
+
+    .header div{
+        width: 90%;
+    }
+
+    .header div .logo{
+        width: 90px;
+        height: 90px;
+    }
+
+    div .links .link_nav{
+        font-size: 22px;
+    
+    }
+}
+@media (max-width: 420px){
+    .header div .logo{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 320px){
+    .header div{
+        width: 100%;
+    }
+
+    .header div .logo{
+        width: 50px;
+        height: 50px;
+    }
+}
