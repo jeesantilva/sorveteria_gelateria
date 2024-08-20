@@ -79,20 +79,14 @@
 
 @media (max-width: 966px){
     .banner h1{
-        font-size: 90px;
-    }
-}
-
-
-@media (max-width: 882px){
-    .banner h1{
         font-size: 80px;
     }
 }
 
+
 @media (max-width: 837px){
     .banner h1{
-        font-size: 70px;
+        text-align: center;
     }
 
 
@@ -130,6 +124,7 @@
         background-size:cover;
     }
 
+
     .banner h1{
 
         text-align: center;
@@ -153,14 +148,14 @@
 }
 @media (min-width: 713px){
     .content_main div{
-        padding: 5px 10px;
+        padding: 0px 10px;
        
     }   
 }
 @media (max-width: 704px){
-    .banner h1{
+    /* .banner h1{
         font-size: 50px;
-    }
+    } */
     .content_main div{
         padding: 5px 10px;
         gap: 10px;
@@ -220,6 +215,16 @@
 
     .content_main div p{
         padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 412px){
+    .main .container_content_main .content_main{
+        padding: 30px 0px;
+    }
+
+    .content_main div h2{
+        font-size: 30px;
     }
 }
 

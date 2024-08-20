@@ -44,6 +44,7 @@ div .links .link_nav:hover{
 
     .header div{
         width: 90%;
+        padding: 8px 0;
     }
 
     .header div .logo{
@@ -64,6 +65,7 @@ div .links .link_nav:hover{
 }
 
 @media (max-width: 320px){
+  
     .header div{
         width: 100%;
     }
